@@ -14,6 +14,6 @@ public class User {
         System.out.println("Name: "+ nama);
         System.out.println("Phone Number: "+ no_hp);
         System.out.println("===============");
-        scan.close();
+
     }
 }

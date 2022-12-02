@@ -16,7 +16,6 @@ public class Server {
             System.out.print("Masukkan Pilihan: ");
             Scanner scan = new Scanner(System.in);
             int pilihan = scan.nextInt();
-            scan.close();
             if (pilihan == 1){
                 Database.Show_Menu();
             }else if (pilihan == 2){

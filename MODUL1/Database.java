@@ -8,8 +8,8 @@ public class Database {
         List_Menu.add(Name);
         List_Menu.add(Category);
         List_Menu.add(Integer.toString(Price));
-
     }
+
     public static void Show_Menu() {
         System.out.println("===============");
         for (int i =0; i<List_Menu.size(); i+=3){
